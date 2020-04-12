@@ -5,7 +5,7 @@
                 <polygon points="0,200 200,0 200,200"></polygon>
             </svg>
             <div class="app__header__image">
-                <img src="assets/avatar.svg">
+                <img src="dist/assets/avatar.svg">
             </div>
             <div class="app__header__title" >
                 <h1 >Samantha Jayasinghe</h1>
