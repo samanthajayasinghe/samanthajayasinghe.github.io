@@ -11,7 +11,7 @@
                 <h1 >Samantha Jayasinghe</h1>
             </div>
             <div class="app__header__tag-line" >
-                <span>In the middle of Software Engineering Journey </span>
+                <span>In middle of the Software Engineering Journey </span>
             </div>
         </div>
         <div class="app__body">

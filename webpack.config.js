@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -35,8 +36,17 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             template: path.resolve(__dirname, 'src')+'/index.html',
-            filename: path.resolve(__dirname, 'dist')+'/index.html'
-        })
+            filename: path.resolve(__dirname)+'/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            hash: true,
+            template: path.resolve(__dirname, 'src')+'/index.html',
+            filename: path.resolve(__dirname,'dist')+'/index.html'
+        }),
+        new CopyPlugin([
+            { from: path.resolve(__dirname, 'src')+'/assets/', to: path.resolve(__dirname, 'dist')+'/assets/' },
+            { from: path.resolve(__dirname, 'src')+'/assets/', to: path.resolve(__dirname)+'/assets/'  },
+        ]),
     ],
     output: {
         filename: '[name].bundle.js',
