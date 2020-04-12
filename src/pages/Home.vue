@@ -1,7 +1,10 @@
 <template>
     <Layout slot="header">
         <template v-slot:content>
-            <div>Home page</div>
+            <div class="bodyContent">
+                <p>Thanks for visiting samanthajayasinghe.github.io</p>
+
+            </div>
         </template>
 
     </Layout>
@@ -16,8 +19,9 @@
     };
 </script>
 <style lang="scss">
-    .main {
+    .bodyContent {
         display: flex;
         justify-content: center;
+        font-size: 16px;
     }
 </style>
