@@ -4,6 +4,7 @@ const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const PrettierPlugin = require("prettier-webpack-plugin");
 
 module.exports = {
     mode: 'development',
@@ -47,6 +48,7 @@ module.exports = {
             { from: path.resolve(__dirname, 'src')+'/assets/', to: path.resolve(__dirname, 'dist')+'/assets/' },
             { from: path.resolve(__dirname, 'src')+'/assets/', to: path.resolve(__dirname)+'/assets/'  },
         ]),
+        new PrettierPlugin()
     ],
     output: {
         filename: '[name].bundle.js',

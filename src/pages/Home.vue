@@ -1,27 +1,18 @@
 <template>
-    <Layout slot="header">
-        <template v-slot:content>
-            <div class="bodyContent">
-                <p>Thanks for visiting samanthajayasinghe.github.io</p>
-
-            </div>
-        </template>
-
-    </Layout>
+  <Layout>
+    <template v-slot:content>
+      <ContentHome />
+    </template>
+  </Layout>
 </template>
 <script>
-    import Layout from "../components/Layout.vue";
+import Layout from "../components/Layout.vue";
+import ContentHome from "../components/content/ContentHome.vue";
 
-    export default {
-        components: {
-            Layout
-        }
-    };
+export default {
+  components: {
+    Layout,
+    ContentHome,
+  },
+};
 </script>
-<style lang="scss">
-    .bodyContent {
-        display: flex;
-        justify-content: center;
-        font-size: 16px;
-    }
-</style>
