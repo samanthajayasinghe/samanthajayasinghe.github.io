@@ -1,12 +1,30 @@
 <template>
-  <Layout />
+  <b-container fluid>
+    <Header />
+    <Navigation @navigate="navigate" />
+    <BobyContent :type="navigationType" />
+  </b-container>
 </template>
 <script>
-import Layout from "../components/Layout.vue";
+import Header from "../components/Header.vue";
+import Navigation from "../components/Navigation.vue";
+import BobyContent from "../components/Content.vue";
 
 export default {
   components: {
-    Layout,
+    Header,
+    Navigation,
+    BobyContent,
+  },
+  data() {
+    return {
+      navigationType: "About",
+    };
+  },
+  methods: {
+    navigate(type) {
+      this.navigationType = type;
+    },
   },
 };
 </script>

@@ -1,24 +1,36 @@
 <template>
-  <div class="navigationContent">
-    <a title="About Me" @click="navigate('About')">
-      <div class="navigationContent__icon">
-        <img src="assets/about.svg" />
-        <p>ABOUT</p>
+  <b-row>
+    <b-col>
+      <div class="navigationContent">
+        <a title="About Me" @click="navigate('About')">
+          <div class="navigationContent__icon">
+            <img src="assets/about.svg" />
+            <p>ABOUT</p>
+          </div>
+        </a>
       </div>
-    </a>
-    <a title="Code" @click="navigate('Code')">
-      <div class="navigationContent__icon">
-        <img src="assets/code.svg" />
-        <p>CODE</p>
-      </div>
-    </a>
-    <a title="Work" @click="navigate('Work')">
-      <div class="navigationContent__icon">
-        <img src="assets/work.svg" />
-        <p>WORK</p>
-      </div>
-    </a>
-  </div>
+    </b-col>
+    <b-col
+      ><div class="navigationContent">
+        <a title="Code" @click="navigate('Code')">
+          <div class="navigationContent__icon">
+            <img src="assets/code.svg" />
+            <p>CODE</p>
+          </div>
+        </a>
+      </div></b-col
+    >
+    <b-col
+      ><div class="navigationContent">
+        <a title="Work" @click="navigate('Work')">
+          <div class="navigationContent__icon">
+            <img src="assets/work.svg" />
+            <p>WORK</p>
+          </div>
+        </a>
+      </div></b-col
+    >
+  </b-row>
 </template>
 
 <script>
@@ -33,7 +45,7 @@ export default {
 <style lang="scss">
 .navigationContent {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   &__icon {
     display: flex;
     flex-direction: column;

@@ -22,7 +22,7 @@ export default {};
 .contentAbout {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 16px;
   margin-top: 20px;
   width: 100%;
