@@ -1,7 +1,9 @@
 <template>
-  <b-row>
-    <component :is="type" />
-  </b-row>
+  <b-container fluid="lg">
+    <b-row>
+      <component :is="type" />
+    </b-row>
+  </b-container>
 </template>
 <script>
 import About from "./content/About.vue";

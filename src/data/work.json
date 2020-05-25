@@ -1,0 +1,59 @@
+{
+  "experience": [
+    {
+      "title": "Totara learning",
+      "image": "test-img",
+      "role": "Senior Software Engineer",
+      "start": "2016",
+      "end": "now",
+      "technology": ["PHP", "GraphQL", "Vuejs", "Docker", "AWS"],
+      "description": "work description goes here",
+      "location": "Wellington, New Zealand",
+      "url": "https://www.totaralearning.com/"
+    },
+    {
+      "title": "OrangeHRM open source",
+      "image": "test-img",
+      "role": "Technical lead",
+      "start": "2008",
+      "end": "now",
+      "technology": ["PHP", "Symfony", "Angularjs", "Jquery"],
+      "description": "work description goes here",
+      "location": "Colombo, SriLanka",
+      "url": "https://github.com/orangehrm/orangehrm"
+    },
+    {
+      "title": "Good Game Studios",
+      "image": "test-img",
+      "role": "Senior Backend Developer",
+      "start": "2015",
+      "end": "2016",
+      "technology": ["PHP", "Phalcon", "RestAPI"],
+      "description": "Goodgame Studios is a leading software company and specializes in developing and publishing free-to-play games. ",
+      "location": "Hamburg, Germany",
+      "url": "https://goodgamestudios.com/"
+    },
+    {
+      "title": "Lazada Tech Hub",
+      "image": "test-img",
+      "role": "Senior Software Engineer",
+      "start": "2014",
+      "end": "2015",
+      "technology": ["PHP", "Go", "RabbitMQ"],
+      "description": "Lazada's constantly evolving technology, logistics and payments infrastructure connects this vast and diverse region, and offers Southeast Asia a shopping experience that is safe, seamless and enjoyable ",
+      "location": "HCMC, Vietnam",
+      "url": "https://www.lazada.com/"
+    },
+    {
+      "title": "Proporta",
+      "image": "test-img",
+      "role": "Software Engineer",
+      "start": "2003",
+      "end": "2008",
+      "technology": ["PHP", "Java"],
+      "description": "work description goes here",
+      "location": "Colombo, SriLanka",
+      "url": "https://github.com/orangehrm/orangehrm"
+    }
+  ]
+}

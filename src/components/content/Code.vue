@@ -1,65 +1,56 @@
 <template>
-  <b-row>
-    <div style="justify-content: center;">
-      <ul class="list-unstyled">
-        <b-media tag="li">
-          <template v-slot:aside>
-            <b-img
-              blank
-              blank-color="#abc"
-              width="64"
-              alt="placeholder"
-            ></b-img>
-          </template>
-          <h5 class="mt-0 mb-1">List-based media object</h5>
-          <p class="mb-0">
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-            vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </p>
-        </b-media>
+  <b-container fluid="lg">
+    <b-row class="justify-content-sm-around">
+      <b-card
+        title="Card Title"
+        img-src="https://picsum.photos/600/300/?image=25"
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 20rem;"
+        class="mb-2"
+      >
+        <b-card-text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </b-card-text>
 
-        <b-media tag="li" class="my-4">
-          <template v-slot:aside>
-            <b-img
-              blank
-              blank-color="#cba"
-              width="64"
-              alt="placeholder"
-            ></b-img>
-          </template>
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+      <b-card
+        title="Card Title"
+        img-src="https://picsum.photos/600/300/?image=25"
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 20rem;"
+        class="mb-2"
+      >
+        <b-card-text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </b-card-text>
 
-          <h5 class="mt-0 mb-1">List-based media object</h5>
-          <p class="mb-0">
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-            vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </p>
-        </b-media>
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+      <b-card
+        title="Card Title"
+        img-src="https://picsum.photos/600/300/?image=25"
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 20rem;"
+        class="mb-2"
+      >
+        <b-card-text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </b-card-text>
 
-        <b-media tag="li">
-          <template v-slot:aside>
-            <b-img
-              blank
-              blank-color="#bac"
-              width="64"
-              alt="placeholder"
-            ></b-img>
-          </template>
-
-          <h5 class="mt-0 mb-1">List-based media object</h5>
-          <p class="mb-0">
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-            scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-            vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </p>
-        </b-media>
-      </ul>
-    </div>
-  </b-row>
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+    </b-row>
+  </b-container>
 </template>
 <script>
 export default {};
