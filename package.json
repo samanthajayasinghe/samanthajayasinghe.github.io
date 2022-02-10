@@ -18,7 +18,7 @@
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prettier": "^2.0.4",
     "prettier-webpack-plugin": "^1.2.0",
     "sass-loader": "^8.0.2",
