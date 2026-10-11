@@ -68,12 +68,6 @@ operating Kubernetes at scale. Recent posts are below.
       <img alt="Samantha's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=samanthajayasinghe&show_icons=true&hide_border=true&count_private=true" height="150">
     </picture>
   </a>
-  <a href="https://github.com/samanthajayasinghe">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=samanthajayasinghe&layout=compact&hide_border=true&theme=tokyonight">
-      <img alt="Samantha's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samanthajayasinghe&layout=compact&hide_border=true" height="150">
-    </picture>
-  </a>
 </p>
 """
 
