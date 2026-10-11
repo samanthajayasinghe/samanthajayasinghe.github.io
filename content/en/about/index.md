@@ -1,12 +1,11 @@
 ---
 title: "About"
-description: "Site Reliability Engineer at Red Hat — managed Kubernetes / OpenShift, fleet operations, and operational automation."
+description: "Site Reliability Engineer — managed Kubernetes / OpenShift, fleet operations, and operational automation."
 ---
 
-I'm Samantha Jayasinghe, a Site Reliability Engineer at **Red Hat**, based in
-**Wellington, New Zealand**. I work on managed Kubernetes / OpenShift — keeping
-large fleets of clusters healthy, automating the toil away, and making on-call
-less painful.
+I'm Samantha Jayasinghe, a Site Reliability Engineer working on managed
+Kubernetes / OpenShift — keeping large fleets of clusters healthy, automating the
+toil away, and making on-call less painful.
 
 🔭 **Currently working on:** ROSA / OpenShift fleet operations, incident
 automation, and agent-driven SRE tooling.

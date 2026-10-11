@@ -38,7 +38,7 @@ DefaultContentLanguage = "en"
 [params]
   env = "production"
   author = "Samantha Jayasinghe"
-  description = "Site Reliability Engineer at Red Hat focused on managed Kubernetes / OpenShift — keeping large fleets healthy, automating the toil away, and making on-call less painful."
+  description = "Site Reliability Engineer focused on managed Kubernetes / OpenShift — keeping large fleets healthy, automating the toil away, and making on-call less painful."
   keywords = ["SRE", "Kubernetes", "OpenShift", "Reliability", "Automation"]
   DateFormat = "January 2, 2006"
   defaultTheme = "auto" # light / dark toggle
@@ -55,9 +55,8 @@ DefaultContentLanguage = "en"
   [params.homeInfoParams]
     Title = "Hi, I'm Sam(antha) 👋"
     Content = """
-Site Reliability Engineer at Red Hat, focused on managed Kubernetes / OpenShift —
-keeping large fleets healthy, automating the toil away, and making on-call less
-painful. Based in Wellington, New Zealand.
+Site Reliability Engineer focused on managed Kubernetes / OpenShift — keeping
+large fleets healthy, automating the toil away, and making on-call less painful.
 
 This site is where I collect notes and write-ups on reliability, observability, and
 automating operational workflows end to end. Recent posts are below.
