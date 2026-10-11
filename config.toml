@@ -38,7 +38,7 @@ DefaultContentLanguage = "en"
 [params]
   env = "production"
   author = "Samantha Jayasinghe"
-  description = "Site Reliability Engineer working on managed Kubernetes and OpenShift — notes on reliability, automation, and operating large fleets."
+  description = "Site Reliability Engineer at Red Hat focused on managed Kubernetes / OpenShift — keeping large fleets healthy, automating the toil away, and making on-call less painful."
   keywords = ["SRE", "Kubernetes", "OpenShift", "Reliability", "Automation"]
   DateFormat = "January 2, 2006"
   defaultTheme = "auto" # light / dark toggle
@@ -55,11 +55,12 @@ DefaultContentLanguage = "en"
   [params.homeInfoParams]
     Title = "Hi, I'm Sam(antha) 👋"
     Content = """
-Site Reliability Engineer focused on managed Kubernetes and OpenShift. I keep
-large fleets healthy, automate operational toil, and make on-call less painful.
+Site Reliability Engineer at Red Hat, focused on managed Kubernetes / OpenShift —
+keeping large fleets healthy, automating the toil away, and making on-call less
+painful. Based in Wellington, New Zealand.
 
-This site is where I collect notes and write-ups on reliability, automation, and
-operating Kubernetes at scale. Recent posts are below.
+This site is where I collect notes and write-ups on reliability, observability, and
+automating operational workflows end to end. Recent posts are below.
 
 <p>
   <a href="https://github.com/samanthajayasinghe">
@@ -75,10 +76,9 @@ operating Kubernetes at scale. Recent posts are below.
     name = "github"
     url = "https://github.com/samanthajayasinghe"
 
-  # Add your LinkedIn by filling in the URL, then uncomment:
-  # [[params.socialIcons]]
-  #   name = "linkedin"
-  #   url = "https://www.linkedin.com/in/your-handle"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/samanthatec/"
 
 [markup.highlight]
   noClasses = false

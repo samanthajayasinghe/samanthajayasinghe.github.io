@@ -1,26 +1,27 @@
 ---
 title: "About"
-description: "Site Reliability Engineer — managed Kubernetes, OpenShift, and operational automation."
+description: "Site Reliability Engineer at Red Hat — managed Kubernetes / OpenShift, fleet operations, and operational automation."
 ---
 
-I'm Samantha Jayasinghe, a Site Reliability Engineer working on managed
-Kubernetes and OpenShift platforms. My work centers on keeping large fleets of
-clusters healthy and reducing the manual effort it takes to run them.
+I'm Samantha Jayasinghe, a Site Reliability Engineer at **Red Hat**, based in
+**Wellington, New Zealand**. I work on managed Kubernetes / OpenShift — keeping
+large fleets of clusters healthy, automating the toil away, and making on-call
+less painful.
 
-### What I work on
+🔭 **Currently working on:** ROSA / OpenShift fleet operations, incident
+automation, and agent-driven SRE tooling.
 
-- **Fleet operations** — operating and troubleshooting Kubernetes / OpenShift
-  clusters at scale.
-- **Incident response** — on-call, alert triage, and post-incident follow-up.
-- **Automation** — replacing repetitive operational work with tooling, from
-  small scripts to larger agent-driven workflows.
-- **Observability** — metrics, logging, and alerting that make problems easy to
-  find before customers do.
+🌱 **Into:** reliability engineering, observability, and automating operational
+workflows end to end.
 
-### Tools I reach for
+💬 **Ask me about:** OpenShift, Kubernetes, on-call / incident response, and
+turning runbooks into automation.
+
+### 🛠️ Tech I work with
 
 Kubernetes · OpenShift · Go · Python · Bash · AWS · Terraform · Prometheus
 
-### Elsewhere
+### 📫 Reach me
 
 - GitHub: [@samanthajayasinghe](https://github.com/samanthajayasinghe)
+- LinkedIn: [samanthatec](https://www.linkedin.com/in/samanthatec/)
