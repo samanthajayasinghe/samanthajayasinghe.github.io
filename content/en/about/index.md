@@ -10,8 +10,8 @@ toil away, and making on-call less painful.
 🔭 **Currently working on:** ROSA / OpenShift fleet operations, incident
 automation, and agent-driven SRE tooling.
 
-🌱 **Into:** reliability engineering, observability, and automating operational
-workflows end to end.
+🌱 **Into:** reliability engineering, observability, automating operational
+workflows end to end — and road cycling when I'm away from the keyboard.
 
 💬 **Ask me about:** OpenShift, Kubernetes, on-call / incident response, and
 turning runbooks into automation.

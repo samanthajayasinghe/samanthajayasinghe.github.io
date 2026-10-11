@@ -55,11 +55,9 @@ DefaultContentLanguage = "en"
   [params.homeInfoParams]
     Title = "Hi, I'm Sam(antha) 👋"
     Content = """
-Site Reliability Engineer focused on managed Kubernetes / OpenShift — keeping
-large fleets healthy, automating the toil away, and making on-call less painful.
-
-This site is where I collect notes and write-ups on reliability, observability, and
-automating operational workflows end to end. Recent posts are below.
+Site Reliability Engineer working on managed Kubernetes / OpenShift — keeping
+large fleets healthy and automating the toil away. Into reliability, observability,
+and road cycling. Recent posts below.
 
 <p>
   <a href="https://github.com/samanthajayasinghe">
