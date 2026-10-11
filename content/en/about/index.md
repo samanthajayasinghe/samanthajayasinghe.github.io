@@ -1,9 +1,6 @@
 ---
 title: "About"
 description: "Site Reliability Engineer — managed Kubernetes, OpenShift, and operational automation."
-menu:
-  main:
-    weight: 1
 ---
 
 I'm Samantha Jayasinghe, a Site Reliability Engineer working on managed
