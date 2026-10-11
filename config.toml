@@ -1,12 +1,12 @@
-title = "Notre-Dame de Paris"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+baseURL = "https://samanthajayasinghe.github.io/"
 languageCode = "en-us"
+title = "Samantha Jayasinghe"
 theme = ["ananke"]
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 5
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -24,10 +24,10 @@ enableRobotsTXT = true
 
 [params]
   text_color = ""
-  author = ""
+  author = "Samantha Jayasinghe"
   favicon = ""
   site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
+  description = "Site Reliability Engineer working on managed Kubernetes and OpenShift — notes on reliability, automation, and operating large fleets."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 3
@@ -35,3 +35,9 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "github"
 url = "https://github.com/samanthajayasinghe"
+
+# Add your LinkedIn (and any others) by filling in the URL below, then
+# uncomment the block. Supported names live in themes/ananke/assets/ananke/socials/
+# [[params.ananke_socials]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/your-handle"
