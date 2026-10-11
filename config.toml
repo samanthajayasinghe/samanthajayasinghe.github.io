@@ -60,6 +60,21 @@ large fleets healthy, automate operational toil, and make on-call less painful.
 
 This site is where I collect notes and write-ups on reliability, automation, and
 operating Kubernetes at scale. Recent posts are below.
+
+<p>
+  <a href="https://github.com/samanthajayasinghe">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=samanthajayasinghe&show_icons=true&hide_border=true&theme=tokyonight&count_private=true">
+      <img alt="Samantha's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=samanthajayasinghe&show_icons=true&hide_border=true&count_private=true" height="150">
+    </picture>
+  </a>
+  <a href="https://github.com/samanthajayasinghe">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=samanthajayasinghe&layout=compact&hide_border=true&theme=tokyonight">
+      <img alt="Samantha's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samanthajayasinghe&layout=compact&hide_border=true" height="150">
+    </picture>
+  </a>
+</p>
 """
 
   [[params.socialIcons]]
@@ -75,3 +90,6 @@ operating Kubernetes at scale. Recent posts are below.
   noClasses = false
   codeFences = true
   guessSyntax = true
+
+[markup.goldmark.renderer]
+  unsafe = true # allow raw HTML in markdown (needed for the GitHub stats cards)
