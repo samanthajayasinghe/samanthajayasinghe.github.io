@@ -53,7 +53,7 @@ DefaultContentLanguage = "en"
   mainSections = ["post"]
 
   [params.homeInfoParams]
-    Title = "Hi, I'm Samantha 👋"
+    Title = "Hi, I'm Sam(antha) 👋"
     Content = """
 Site Reliability Engineer focused on managed Kubernetes and OpenShift. I keep
 large fleets healthy, automate operational toil, and make on-call less painful.
