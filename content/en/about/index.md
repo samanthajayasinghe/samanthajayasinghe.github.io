@@ -30,7 +30,7 @@ Kubernetes · OpenShift · Go · Python · Bash · AWS · Terraform · Prometheu
 
 ### 🎓 Certifications
 
-- **Certified Kubernetes Administrator (CKA)** — Cloud Native Computing Foundation (CNCF) / The Linux Foundation
+- **Certified Kubernetes Administrator (CKA)** — Cloud Native Computing Foundation (CNCF) / The Linux Foundation · [verify](https://www.credly.com/badges/cad8a3e0-712b-48af-9369-3b1870dadc4d/public_url)
 
 ### 📫 Reach me
 
