@@ -1,20 +1,28 @@
 ---
 title: "About"
-description: "Site Reliability Engineer — managed Kubernetes / OpenShift, fleet operations, and operational automation."
+description: "Senior Site Reliability Engineer and systems architect — Kubernetes / OpenShift, system design, and AI-driven automation."
 ---
 
-I'm Samantha Jayasinghe, a Site Reliability Engineer working on managed
-Kubernetes / OpenShift — keeping large fleets of clusters healthy, automating the
-toil away, and making on-call less painful.
+I'm Samantha Jayasinghe, a Senior Site Reliability Engineer and systems architect
+with **15+ years of experience** designing, scaling, and hardening complex systems.
+These days I work on large managed Kubernetes / OpenShift platforms — shaping their
+architecture for reliability, scalability, and operability, and automating the toil
+away.
 
-🔭 **Currently working on:** ROSA / OpenShift fleet operations, incident
-automation, and agent-driven SRE tooling.
+I care most about the architecture underneath a system: how its components fit
+together, where it breaks under load, and how to evolve it without downtime. Lately
+that's paired with **AI-driven engineering** — using AI agents and an **Agentic
+Development Life Cycle (ADLC)** to automate the software lifecycle across codebases,
+from issue triage and implementation through review and release.
 
-🌱 **Into:** reliability engineering, observability, automating operational
-workflows end to end — and road cycling when I'm away from the keyboard.
+🔭 **Currently working on:** Kubernetes / OpenShift (ROSA) fleet operations,
+architectural improvements, incident automation, and agent-driven SRE tooling.
 
-💬 **Ask me about:** OpenShift, Kubernetes, on-call / incident response, and
-turning runbooks into automation.
+🌱 **Into:** system design, reliability engineering, observability, automating
+operational workflows end to end — and road cycling when I'm away from the keyboard.
+
+💬 **Ask me about:** system architecture, OpenShift, Kubernetes, on-call / incident
+response, and automating the development lifecycle with AI agents.
 
 ### 🛠️ Tech I work with
 

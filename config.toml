@@ -38,7 +38,7 @@ DefaultContentLanguage = "en"
 [params]
   env = "production"
   author = "Samantha Jayasinghe"
-  description = "Site Reliability Engineer focused on managed Kubernetes / OpenShift — keeping large fleets healthy, automating the toil away, and making on-call less painful."
+  description = "Senior Site Reliability Engineer and systems architect — designing, scaling, and hardening large Kubernetes / OpenShift platforms, and automating the software lifecycle with AI agents."
   keywords = ["SRE", "Kubernetes", "OpenShift", "Reliability", "Automation"]
   DateFormat = "January 2, 2006"
   defaultTheme = "auto" # light / dark toggle
@@ -55,9 +55,9 @@ DefaultContentLanguage = "en"
   [params.homeInfoParams]
     Title = "Hi, I'm Sam(antha) 👋"
     Content = """
-Site Reliability Engineer working on managed Kubernetes / OpenShift — keeping
-large fleets healthy and automating the toil away. Into reliability, observability,
-and road cycling. Recent posts below.
+Senior Site Reliability Engineer and systems architect — I design, scale, and
+harden large Kubernetes / OpenShift platforms, and automate the software lifecycle
+with AI agents. Into system design, reliability, and road cycling. Recent posts below.
 
 <p>
   <a href="https://github.com/samanthajayasinghe">
