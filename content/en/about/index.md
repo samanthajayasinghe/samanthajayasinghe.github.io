@@ -28,6 +28,10 @@ response, and automating the development lifecycle with AI agents.
 
 Kubernetes · OpenShift · Go · Python · Bash · AWS · Terraform · Prometheus
 
+### 🎓 Certifications
+
+- **Certified Kubernetes Administrator (CKA)** — Cloud Native Computing Foundation (CNCF) / The Linux Foundation
+
 ### 📫 Reach me
 
 - GitHub: [@samanthajayasinghe](https://github.com/samanthajayasinghe)
