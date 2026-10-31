@@ -1,6 +1,6 @@
 ---
 title: "Hosting Open-Weight Models on a Local CPU Kubernetes Cluster with vLLM"
-date: 2026-11-18
+date: 2026-10-31
 description: "You don't need GPUs to self-host an LLM. A practical guide to running open-weight models with vLLM on a local, CPU-only Kubernetes cluster — model sizing, tuning, and staying realistic about throughput."
 tags: ["kubernetes", "vllm", "llm", "mlops", "self-hosting", "homelab"]
 ---
