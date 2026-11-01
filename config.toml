@@ -61,7 +61,10 @@ with AI agents. Into system design, reliability, and road cycling. Recent posts 
 
 <p>
   <a href="https://github.com/samanthajayasinghe">
-    <img alt="Samantha's GitHub stats" src="/github-stats.svg" style="max-width:100%;height:auto">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=samanthajayasinghe&show_icons=true&hide_border=true&theme=tokyonight&count_private=true">
+      <img alt="Samantha's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=samanthajayasinghe&show_icons=true&hide_border=true&count_private=true" height="150">
+    </picture>
   </a>
 </p>
 """
