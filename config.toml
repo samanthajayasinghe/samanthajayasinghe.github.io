@@ -59,14 +59,33 @@ Senior Site Reliability Engineer and systems architect — I design, scale, and
 harden large Kubernetes / OpenShift platforms, and automate the software lifecycle
 with AI agents. Into system design, reliability, and road cycling. Recent posts below.
 
-<p>
-  <a href="https://github.com/samanthajayasinghe">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-STATS-INSTANCE.vercel.app/api?username=samanthajayasinghe&show_icons=true&hide_border=true&theme=tokyonight&count_private=true">
-      <img alt="Samantha's GitHub stats" src="https://YOUR-STATS-INSTANCE.vercel.app/api?username=samanthajayasinghe&show_icons=true&hide_border=true&count_private=true" height="150" style="max-width:100%;height:auto">
-    </picture>
-  </a>
+<p id="gh-stats" aria-label="Samantha's GitHub stats" style="display:inline-flex;flex-wrap:wrap;gap:.6em;margin:0.8em 0;font-size:.9em">
+  <noscript><a href="https://github.com/samanthajayasinghe">github.com/samanthajayasinghe</a></noscript>
 </p>
+<script>
+(function () {
+  var el = document.getElementById('gh-stats');
+  if (!el) return;
+  fetch('https://api.github.com/users/samanthajayasinghe')
+    .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function (u) {
+      var items = [
+        ['followers', u.followers],
+        ['public repos', u.public_repos]
+      ];
+      if (u.public_gists) items.push(['gists', u.public_gists]);
+      el.innerHTML = items.map(function (i) {
+        return '<a href="https://github.com/samanthajayasinghe?tab=' +
+          (i[0] === 'followers' ? 'followers' : 'repositories') + '" ' +
+          'style="text-decoration:none;margin-right:.4em">' +
+          '<strong>' + i[1] + '</strong> ' + i[0] + '</a>';
+      }).join('<span aria-hidden="true" style="opacity:.4">·</span>');
+    })
+    .catch(function () {
+      el.innerHTML = '<a href="https://github.com/samanthajayasinghe" style="text-decoration:none">@samanthajayasinghe</a>';
+    });
+})();
+</script>
 """
 
   [[params.socialIcons]]
